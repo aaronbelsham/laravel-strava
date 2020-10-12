@@ -1,5 +1,5 @@
 {
-    "name": "aaronbelsham/laravel-strava",
+    "name": "codetoad/strava",
     "description": "A laravel package to access data from the Strava API.",
     "type": "library",
     "require": {
@@ -8,16 +8,16 @@
     },
     "autoload": {
         "psr-4": {
-            "AaronBelsham\\Strava\\": "src/"
+            "CodeToad\\Strava\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AaronBelsham\\Strava\\StravaServiceProvider"
+                "CodeToad\\Strava\\StravaServiceProvider"
             ],
             "aliases": {
-                "Strava": "AaronBelsham\\Strava\\StravaFacade"
+                "Strava": "CodeToad\\Strava\\StravaFacade"
             }
         }
     },
